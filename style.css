@@ -1,0 +1,218 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color:rgb(90, 168, 204);
+  margin-top: 50px;
+}
+
+li.middenmenu {
+  background-color: lightgreen;
+  overflow: hidden;
+  margin: -2px;
+  padding: 7px;
+  display: inline;
+  border-left: 1px solid darkgreen;
+  border-right: 1px solid darkgreen;
+}
+
+li.linksmenu {
+  background-color: lightgreen;
+  overflow: hidden;
+  margin: -2px;
+  padding: 7px;
+  display: inline;
+  border-left: 1px solid darkgreen;
+}
+
+li.rechtsmenu {
+  background-color: lightgreen;
+  overflow: hidden;
+  margin: -2px;
+  padding: 7px;
+  display: inline;
+  border-right: 1px solid darkgreen;
+
+}
+ul, li, a {
+  transition: color 1s
+}
+
+ul.menu {
+  padding: 7px;
+  border-top: 1px solid darkgreen;
+  border-bottom: 1px solid darkgreen;
+  background-color: lightgreen;
+  width: 100%;
+  padding-left: 0px;
+  padding-bottom: 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul, li, a:hover {
+  color : white;
+}
+
+ul.contact {
+  padding: 7px;
+  border-top: 1px solid darkgreen;
+  border-bottom: 1px solid darkgreen;
+  background-color: lightgreen;
+  width: 100%;
+  padding-left: 0px;
+  padding-bottom: 6px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: darkgreen;
+  font-family: Helvetica;
+}
+
+a.jbodp {
+  font-weight: bold;
+}
+
+h1.eerstepagina {
+  color: white;
+  font-family: Helvetica;
+  margin: 30px;
+  margin-left: 10px;
+}
+
+h2.eerstepagina {
+  color: white;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+p.eerstepagina {
+  color: white;
+  font-family: Helvetica;
+  margin-left: 30px;
+}
+
+h1.tweedepagina {
+  color: yellow;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+h2.tweedepagina {
+  color: yellow;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+p.tweedepagina {
+  color: white;
+  font-family: Helvetica;
+  margin-left: 30px;
+}
+
+.tweedepagina {
+  color: yellow;
+  font-family: Helvetica;
+}
+
+h1.derdepagina {
+  color: white;
+  font-family: Helvetica;
+  margin: 30px;
+  margin-left: 10px;
+}
+
+h2.derdepagina {
+  color: white;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+p.derdepagina {
+  color: white;
+  font-family: Helvetica;
+  margin-left: 30px;
+}
+h1.vierdepagina {
+  color: white;
+  font-family: Helvetica;
+  margin: 30px;
+  margin-left: 10px;
+}
+
+h2.vierdepagina {
+  color: white;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+p.vierdepagina {
+  color: white;
+  font-family: Helvetica;
+  margin-left: 10px;
+}
+
+.hederp {
+  font-size: 20px;
+  color: white;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 45px;
+  font-weight: bold;
+}
+
+.derdepaginaextranaarvoren {
+  color: white;
+  font-family: Helvetica;
+  margin: 10px;
+  margin-left: 60px;
+}
+
+table {
+  text-align: center;
+  background-color: darkblue;
+}
+
+td {
+  text-align: left;
+  border: 1px solid lightgrey;
+  background-color: darkblue;
+}
+
+.tabel {
+  color: yellow;
+}
+
+.boven {
+  background-color: white;
+  color: black;
+}
+
+.derdepaginaeen {
+  color: black;
+  font-family: Helvetica;
+  margin-left: 30px;
+}
+.pic1 {
+  margin: 30px;
+  border: 3px solid white;
+}
+.vid {
+  margin: 30px;
+  border: 3px solid white;
+}
+#contactlink {
+  font-family: Helvetica;
+}
